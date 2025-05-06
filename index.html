@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autônomos | Conectando Profissionais e Clientes</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Autô<span>nomos</span></a>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Como Funciona</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <div class="auth-buttons">
+                <a href="#" class="login" id="loginBtn">Entrar</a>
+                <a href="#" class="register" id="registerBtn">Cadastrar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Conectando quem precisa com quem sabe fazer</h1>
+            <p>Encontre profissionais qualificados para qualquer serviço ou ofereça suas habilidades para quem precisa.</p>
+            
+            <div class="cta-buttons">
+                <a href="#" class="cta-button prestador" id="offerServiceBtn">Oferecer Serviços</a>
+                <a href="#" class="cta-button cliente" id="findServiceBtn">Encontrar Profissionais</a>
+            </div>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Do que você precisa? Ex: eletricista, professor de inglês...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorias -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Explore por Categorias</h2>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Reformas</h3>
+                    <p>Pedreiros, pintores e mais</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Elétrica</h3>
+                    <p>Instalações e reparos</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Aulas</h3>
+                    <p>Professores particulares</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Tecnologia</h3>
+                    <p>Desenvolvimento e suporte</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>Limpeza</h3>
+                    <p>Residencial e comercial</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Culinária</h3>
+                    <p>Chefs e confeiteiros</p>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Fretes</h3>
+                    <p>Mudanças e entregas</p>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Beleza</h3>
+                    <p>Cabeleireiros e estética</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profissionais em Destaque -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Profissionais em Destaque</h2>
+            
+            <div class="professionals-grid">
+                <div class="professional-card">
+                    <div class="professional-img">
+                        <i class="fas fa-user fa-3x"></i>
+                    </div>
+                    <div class="professional-info">
+                        <h3>Carlos Silva</h3>
+                        <div class="professional-category">Eletricista</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(32)</span>
+                        </div>
+                        <p class="professional-description">Especialista em instalações residenciais e comerciais com mais de 10 anos de experiência.</p>
+                        <a href="#" class="professional-action">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                
+                <div class="professional-card">
+                    <div class="professional-img">
+                        <i class="fas fa-user fa-3x"></i>
+                    </div>
+                    <div class="professional-info">
+                        <h3>Ana Costa</h3>
+                        <div class="professional-category">Professora de Inglês</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(47)</span>
+                        </div>
+                        <p class="professional-description">Professora formada com certificação internacional. Aulas para todos os níveis.</p>
+                        <a href="#" class="professional-action">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                
+                <div class="professional-card">
+                    <div class="professional-img">
+                        <i class="fas fa-user fa-3x"></i>
+                    </div>
+                    <div class="professional-info">
+                        <h3>Paulo Mendes</h3>
+                        <div class="professional-category">Desenvolvedor Web</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(19)</span>
+                        </div>
+                        <p class="professional-description">Criação de sites, lojas virtuais e sistemas web personalizados para seu negócio.</p>
+                        <a href="#" class="professional-action">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                
+                <div class="professional-card">
+                    <div class="professional-img">
+                        <i class="fas fa-user fa-3x"></i>
+                    </div>
+                    <div class="professional-info">
+                        <h3>Juliana Santos</h3>
+                        <div class="professional-category">Designer Gráfico</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(28)</span>
+                        </div>
+                        <p class="professional-description">Criação de identidade visual, materiais impressos e design para redes sociais.</p>
+                        <a href="#" class="professional-action">Solicitar Orçamento</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Como Funciona o Ajude+</h2>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Cadastre-se</h3>
+                    <p>Crie sua conta como cliente ou prestador de serviços em menos de 1 minuto.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Conecte-se</h3>
+                    <p>Encontre profissionais qualificados ou ofereça seus serviços para quem precisa.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Negocie</h3>
+                    <p>Solicite orçamentos e converse diretamente com os profissionais pela plataforma.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Avalie</h3>
+                    <p>Após a conclusão do serviço, deixe sua avaliação para ajudar outros usuários.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ajude+</h3>
+                    <p>Conectando quem precisa com quem sabe fazer. A plataforma ideal para encontrar profissionais qualificados ou oferecer seus serviços.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Categorias</a></li>
+                        <li><a href="#">Como Funciona</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Para Profissionais</h3>
+                    <ul>
+                        <li><a href="#">Cadastrar Serviços</a></li>
+                        <li><a href="#">Dicas para Perfil</a></li>
+                        <li><a href="#">Como Receber Pagamentos</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contato@ajudemais.com.br</li>
+                        <li><i class="fas fa-phone"></i> (11) 9999-9999</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP - Brasil</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ajude+ | Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Login/Cadastro -->
+    <div class="modal" id="authModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            
+            <div class="tabs">
+                <div class="tab active" data-tab="login">Login</div>
+                <div class="tab" data-tab="register">Cadastro</div>
+            </div>
+            
+            <div class="tab-content active" id="loginTab">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="loginEmail">Email</label>
+                        <input type="email" id="loginEmail" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="loginPassword">Senha</label>
+                        <input type="password" id="loginPassword" required>
+                    </div>
+                    
+                    <button type="submit" class="form-button">Entrar</button>
+                    
+                    <div class="form-footer">
+                        <p>Esqueceu sua senha? <a href="#">Recuperar</a></p>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="tab-content" id="registerTab">
+                <form id="registerForm">
+                    <div class="user-type">
+                        <input type="radio" name="userType" id="clientType" value="client" checked>
+                        <label for="clientType">Sou Cliente</label>
+                        
+                        <input type="radio" name="userType" id="professionalType" value="professional">
+                        <label for="professionalType">Sou Profissional</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerName">Nome Completo</label>
+                        <input type="text" id="registerName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerEmail">Email</label>
+                        <input type="email" id="registerEmail" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="registerPhone">Telefone</label>
+                        <input type="tel" id="registerPhone" required>
+                    </div>
+                    
+                    <div class="form-group professional-field" style="display: none;">
+                        <label for="registerCategory">Categoria de Serviço</label>
+                        <select id="registerCategory">
+                            <option value="">Selecione uma categoria</option>
+                            <option value="reforma">Reformas</option>
+                            <option value="eletrica">Elétrica</option>
+                            <option value="aulas">Aulas</option>
+                            <option value="tecnologia">Tecnologia</option>
+                            <option value="limpeza">Limpeza</option>
+                            <option value="culinaria">Culinária</option>
+                            <option value="fretes">Fretes</option>
+                            <option value="beleza">Beleza</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form
